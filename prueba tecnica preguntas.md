@@ -35,7 +35,7 @@ Pese a que prefiero el formato .JSON para las automatizaciones, puede variar dep
 - Horarios de ejecución.
 - Credenciales de acceso (en archivo .env separado).
 
-1. **Escriba con sus palabras que excepciones consideraría al automatizar la descarga de archivos de una página web y explique brevemente cada una.**
+2. **Escriba con sus palabras que excepciones consideraría al automatizar la descarga de archivos de una página web y explique brevemente cada una.**
 
 
 - Timeouts de conexion: Aveces la pagina se carga mal, o no responde y es bueno poner excepciones. (y también se ponen números de reintentos)
@@ -48,7 +48,7 @@ Pese a que prefiero el formato .JSON para las automatizaciones, puede variar dep
 - Registrar el error con detalles específicos en logs.
 
 
-1. Desde el proceso de Talento Humano han presentado la necesidad de automatizar el proceso que se describe a continuación:
+3. Desde el proceso de Talento Humano han presentado la necesidad de automatizar el proceso que se describe a continuación:
 
    Una persona todos los días laborales a las 8 am debe revisar y clasificar las hojas de vida que llegan a un correo. La persona las descarga y luego las guarda en la ruta local de carpetas:  CV -> año -> mes. La persona renombra cada hoja de vida como tipoDocumento\_numeroDocumento\_NombreApellido\_cargo.pdf, por ejemplo, CC\_123456789\_PedroPerez\_desarrolladorjrRPA. Todos los archivos los guarda como PDF. 
 
@@ -215,7 +215,7 @@ Ejecución Mensual (Primer día laboral del mes):
 
 
 
-1. Realice una automatización en Python usando Selenium para que ingrese a la página <https://automationexercise.com/login> y registre 5 nuevos usuarios.
+4. Realice una automatización en Python usando Selenium para que ingrese a la página <https://automationexercise.com/login> y registre 5 nuevos usuarios.
 
    Comparta el código y demás archivos o elementos que considere necesarios.
 
