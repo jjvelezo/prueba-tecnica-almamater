@@ -220,3 +220,5 @@ Ejecución Mensual (Primer día laboral del mes):
    Comparta el código y demás archivos o elementos que considere necesarios.
 
    Si tiene algún aspecto a considerar de cualquier tipo (ya sea para la ejecución, con respecto al proceso, excepciones, decisiones etc.) por favor indíquelo.
+
+   En ek archivo README.MD s eencuentra como ejecutar el proceso.
