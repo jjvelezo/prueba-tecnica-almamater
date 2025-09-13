@@ -221,4 +221,4 @@ Ejecución Mensual (Primer día laboral del mes):
 
    Si tiene algún aspecto a considerar de cualquier tipo (ya sea para la ejecución, con respecto al proceso, excepciones, decisiones etc.) por favor indíquelo.
 
-   En ek archivo README.MD s eencuentra como ejecutar el proceso.
+   En el archivo README.MD e encuentra como ejecutar el proceso.
