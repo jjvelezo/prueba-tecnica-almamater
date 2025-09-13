@@ -37,11 +37,7 @@ El sistema automatiza el proceso completo de registro de 5 usuarios:
 
 2. **Activar el ambiente virtual:**
    ```bash
-   # Windows
    venv\Scripts\activate
-   
-   # Linux/Mac
-   source venv/bin/activate
    ```
 
 3. **Instalar dependencias:**
