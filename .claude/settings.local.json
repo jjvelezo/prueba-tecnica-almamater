@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:automationexercise.com)",
+      "Bash(python:*)",
+      "Bash(venvScripts:*)",
+      "Bash(.venvScriptsactivate)",
+      "Bash(call venvScriptsactivate.bat)",
+      "Bash(\"venv\\Scripts\\python.exe\" generador_credenciales.py)",
+      "Bash(\"venv\\Scripts\\python.exe\":*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

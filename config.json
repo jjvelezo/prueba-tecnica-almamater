@@ -1,0 +1,149 @@
+{
+  "configuracion": {
+    "generacion_usuarios": {
+      "cantidad_usuarios": 5,
+      "locale_faker": "en_US",
+      "pais_defecto": "Estados Unidos"
+    },
+    "contrasenas": {
+      "longitud": 14,
+      "usar_simbolos": true,
+      "caracteres_especiales": "!@#$%^&*()-_=+[]{};:,.<>/?",
+      "incluir_mayusculas": true,
+      "incluir_minusculas": true,
+      "incluir_numeros": true
+    },
+    "fecha_nacimiento": {
+      "edad_minima": 18,
+      "edad_maxima": 80
+    },
+    "telefono": {
+      "codigo_pais": "+1",
+      "area_code_min": 200,
+      "area_code_max": 999,
+      "central_min": 200,
+      "central_max": 999,
+      "line_min": 0,
+      "line_max": 9999
+    },
+    "correo": {
+      "dominio": "pruebatecnica.com",
+      "convertir_minusculas": true,
+      "remover_espacios": true
+    },
+    "generos_disponibles": [
+      "Masculino",
+      "Femenino"
+    ],
+    "archivos": {
+      "nombre_salida": "config.json",
+      "codificacion": "utf-8"
+    },
+    "rutas": {
+      "ruta_logs": "./logs"
+    },
+    "timeouts": {
+      "lectura_timeout": 10,
+      "delay_entre_operaciones": 2,
+      "reintentos_maximos": 2
+    },
+    "navegador": {
+      "modo_headless": false,
+      "ventana_maximizada": true,
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    },
+    "urls": {
+      "url_base": "https://automationexercise.com",
+      "url_registro": "/signup"
+    },
+    "logging": {
+      "nivel": "INFO",
+      "formato": "%(asctime)s - %(levelname)s - %(message)s"
+    },
+    "mensajes": {
+      "usuario_creado": "Usuario creado exitosamente",
+      "error_conexion": "Error de conexión",
+      "proceso_completado": "Proceso completado exitosamente",
+      "archivo_guardado": "Credenciales guardadas en {archivo}",
+      "resumen_usuarios": "Resumen generado ({cantidad} usuarios)",
+      "iniciando_proceso": "Iniciando proceso de generación de usuarios"
+    }
+  },
+  "credenciales": [
+    {
+      "Nombre": "Nicole",
+      "apellido": "Russell",
+      "Correo": "nicole.russell1@pruebatecnica.com",
+      "genero": "Masculino",
+      "contraseña": "=iyhs&E1HY)Lr*",
+      "fecha de nacimiento": "1996-06-10",
+      "compañia": "Moore Ltd",
+      "direccion": "759 Sara Field Suite 103",
+      "pais": "Estados Unidos",
+      "estado": "Arkansas",
+      "ciudad": "South Jessicaport",
+      "codigo zip": "51038",
+      "numero celular": "+18054218875"
+    },
+    {
+      "Nombre": "Bryan",
+      "apellido": "Harris",
+      "Correo": "bryan.harris2@pruebatecnica.com",
+      "genero": "Femenino",
+      "contraseña": "ogdHGP4<6xIK5.",
+      "fecha de nacimiento": "2005-06-25",
+      "compañia": "Lyons Group",
+      "direccion": "2767 Maureen Mill",
+      "pais": "Estados Unidos",
+      "estado": "Montana",
+      "ciudad": "Reynoldsburgh",
+      "codigo zip": "33454",
+      "numero celular": "+15868050302"
+    },
+    {
+      "Nombre": "Stephanie",
+      "apellido": "Sullivan",
+      "Correo": "stephanie.sullivan3@pruebatecnica.com",
+      "genero": "Femenino",
+      "contraseña": "{duF@<.MpNt3$%",
+      "fecha de nacimiento": "1976-07-29",
+      "compañia": "Davis, Smith and Moore",
+      "direccion": "7192 Matthew Squares",
+      "pais": "Estados Unidos",
+      "estado": "Ohio",
+      "ciudad": "Mercadoburgh",
+      "codigo zip": "04481",
+      "numero celular": "+19252305655"
+    },
+    {
+      "Nombre": "Jeremy",
+      "apellido": "Webster",
+      "Correo": "jeremy.webster4@pruebatecnica.com",
+      "genero": "Femenino",
+      "contraseña": "U@8gtX):)$w29U",
+      "fecha de nacimiento": "1946-08-03",
+      "compañia": "Quinn, Patterson and Sullivan",
+      "direccion": "10186 Bryant Forges",
+      "pais": "Estados Unidos",
+      "estado": "New Mexico",
+      "ciudad": "Samuelville",
+      "codigo zip": "56920",
+      "numero celular": "+12568231509"
+    },
+    {
+      "Nombre": "Anna",
+      "apellido": "Neal",
+      "Correo": "anna.neal5@pruebatecnica.com",
+      "genero": "Masculino",
+      "contraseña": "u{ve25]^Ec9B$;",
+      "fecha de nacimiento": "1973-09-30",
+      "compañia": "Parker-Moore",
+      "direccion": "093 Lawrence Ferry Suite 751",
+      "pais": "Estados Unidos",
+      "estado": "Arkansas",
+      "ciudad": "Stewartport",
+      "codigo zip": "95057",
+      "numero celular": "+14177506928"
+    }
+  ]
+}
